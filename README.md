@@ -8,16 +8,20 @@ The model outcome is the dependent variable loan status as high risk/low risk.
 * Naive Random Oversampling: </br>
 Following are the perrformance metrics:
 Naive Random Oversampling results: Our balanced accuracy test is 64%, the precision for the high_risk has a very low positivity at 1% and the recall is 69%
-Interpretation: Due to low precision of high_risk prediction, this model is not very good for high_risk assessment.
+Interpretation: Due to low precision of high_risk prediction, this model is not very good for high_risk assessment. Also a low (2%) F1 score indicates the model flags high number of false positives and false negatives.
 ![image](https://user-images.githubusercontent.com/31217096/201537714-c48bf055-b367-4488-81ef-552bedfca34a.png)
 
 * SMOTE Oversampling:</br>
 The following are model performance metrics:
-Balanced accuracy test:   ; precision for high_risk positivity: recall: 
+Balanced accuracy test: 66%   ; precision for high_risk positivity: 1% recall: 63%
+Interpretation: Due to low precision of high_risk prediction, this model is not very good for high_risk assessment. 
+Also a low (2%) F1 score indicates the model flags high number of false positives and false negatives.
 ![image](https://user-images.githubusercontent.com/31217096/201538248-364fa098-dd1d-4fa1-b653-ca274ca8bf6c.png)
 #### Undersampling Results:
 * Clustercentroid Resampler:
-* Balanced accuracy test:   ; precision for high_risk positivity: recall:
+* Balanced accuracy test: 66%  ; precision for high_risk positivity: 1% recall: 69%. 
+Interpretation: Due to low precision of high_risk prediction, this model is not very good for high_risk assessment. 
+Also a low (2%) F1 score indicates the model flags high number of false positives and false negatives.
 ![image](https://user-images.githubusercontent.com/31217096/201540861-e3e63336-e033-40a3-a378-b9b49d0b8984.png)
 
 
